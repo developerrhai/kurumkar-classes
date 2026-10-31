@@ -1,0 +1,56 @@
+﻿# Dependencies
+node_modules/
+backend/node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Environment variables (DO NOT COMMIT SECRETS)
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Sensitive keys and credentials
+*.pem
+*-firebase-adminsdk-*.json
+firebase-service-account.json
+temp-valid-key.json
+
+# Archives & Temp files
+*.tar.gz
+*.zip
+*.log
+.DS_Store
+.vercel/
+
+# Sandbox / internal
+__v0_*
+.snowflake/
+.v0-trash/
+# Sensitive server info & deployment files
+arise-academy-info.md
+server.md
+server-info.md
+deploy_to_ec2.ps1
+chat-summary.md
+chat_summary.md
+*.pem
+arise-6a134-*
+check.js
+*.sql
+backend.tar.gz
+node-key.pem
+# Scratch scripts & temporary server configs
+*.conf
+extract.js
+fix.js
+record.js
+patch.py
+hit_api.js
+generate-groups.js
+notification_tech_doc.md
+chat_system_api_docs.md
+HOMEWORK_MODULE_PLAN.md
+backend/
